@@ -1,0 +1,61 @@
+# Ignorar archivos y carpetas de compilación
+/build/
+/dist/
+/out/
+/bin/
+/obj/
+
+# Ignorar dependencias de lenguajes comunes
+/node_modules/
+*.jar
+*.war
+*.ear
+*.class
+*.pyc
+*.pyo
+*.o
+*.so
+*.dll
+*.exe
+
+# Ignorar archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar archivos temporales y de logs
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.~*
+
+# Ignorar configuraciones de IDEs y editores de texto
+/.idea/
+/.vscode/
+*.iml
+
+# Ignorar archivos grandes o específicos
+*.zip
+*.tar.gz
+*.7z
+*.rar
+*.iso
+
+# Ignorar resultados de pruebas y salidas
+/tests/output/
+/tests/results/
+/demos/output/
+/demos/results/
+
+# Ignorar datos pesados y temporales
+/data/raw_data/
+*.csv
+*.tsv
+*.json
+
+# Permitir todo lo demás
+!*.md
+!*.txt
+!README.*
