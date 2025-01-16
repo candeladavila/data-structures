@@ -26,6 +26,7 @@ public class Dijkstra {
    *
    * @return a dictionary where keys are vertices and values are the minimum cost to reach them from the source.
    */
+   //DIJKSTRA
   public static <V> Dictionary<V, Integer> dijkstra(
       WeightedGraph<V, Integer> weightedGraph, V source) {
  
@@ -58,6 +59,8 @@ public class Dijkstra {
    * @return a dictionary where keys are vertices and values are pairs with the minimum cost to reach them from the
    * source and the path to reach them.
    */
+
+  //DIJKSTRA PATHS
   public static <V> Dictionary<V, Tuple2<Integer, List<V>>> dijkstraPaths(
       WeightedGraph<V, Integer> weightedGraph, V source) {
       
